@@ -5,6 +5,8 @@ title: Final
 ## final
 You use the `final` keyword to mark a variable constant, so that it can be assigned only once. So you must initialize a final variable with a value. If its not initialized (when declared, inside Constructor or inside static blocks), compile time error will occur.
 
+
+
 ***Example:***
 ```java
 class MyClass {
@@ -35,6 +37,8 @@ class Honda extends Bike{
 
 Output wil be - 
   Output:Compile Time Error
+ 
+  
   
 ---------------------------------------------------------------------------------------
 
@@ -56,3 +60,14 @@ class Honda1 extends Bike{
 
 Output will be-
  Output:Compile Time Error
+ 
+ 
+   # Blank final variable:
+  A variable that is declared as final and not initialized is called as Blank final variable.
+  
+  example:
+      final int A;
+      A=10;
+
+
+## if the variable is declared as final and initialized in the same statement then in the class file compiler will replace that variable with actual value.
